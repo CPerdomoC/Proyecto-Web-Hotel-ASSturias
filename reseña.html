@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Hotel Costa Asturias - Reseñas</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="habitacion.html">Habitaciones</a>
+            </nav>
+            
+            <div class="logo-container">
+                <img src="Assets/rey-asturias.png" alt="Logo Hotel Rey de Asturias" class="logo-img">
+            </div>
+
+            <nav>
+                <a href="servicio.html">Servicios</a>
+                <a href="reseña.html">Reseñas</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="contenido">
+                <h2>Tu Opinión nos importa</h2>
+                <p>Cuéntanos cómo fue tu experiencia en nuestro complejo.</p>
+
+                <div class="formulario-contenedor">
+                    <form action="#" method="post">
+                        <div class="grupo-input">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+
+                        <div class="grupo-input">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
+                        </div>
+
+                        <div class="grupo-input">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                        </div>
+
+                        <div class="grupo-input">
+                            <label for="mensaje">Reseña</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu comentario..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-enviar">Enviar Reseña</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-info">
+                <strong>Hotel Rey de Asturias</strong><br>
+                Camino de Vivigo, s/n, 33156 Oviñana, Asturias<br>
+                Teléfono: 984 561 487<br>
+                <a href="http://hotelreydeasturias.es" target="_blank">hotelreydeasturias.es</a>
+            </div>
+            <small>&copy; 2026 Hotel Rey de Asturias</small>
+        </footer>
+    </body>
+</html>
